@@ -80,7 +80,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -354,7 +354,7 @@ BEST hparam: k_star=2 | s_int=4 (bin=000100) | P(y·s=0)=1.000000 | P(y·s=1)=3.
   k=4  s=010000  cos=0.977662  NEXT=(8, 9, 22, 23, 26, 29, 32)
   k=5  s=100000  cos=0.942889  NEXT=(4, 33, 34, 35, 37, 38, 39)
 --- glavna predikcija (Simon orbit-based) ---
-predikcija NEXT: (8, 23, 29, 32, 34, 37, 39)
+predikcija NEXT: (8, 23, x, y, z, 37, 39)
 """
 
 
